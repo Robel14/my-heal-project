@@ -1,7 +1,4 @@
 import { NextResponse } from "next/server"
-import clientPromise from "@/lib/mongodb"
-import { getServerSession } from "next-auth"
-import { authOptions } from "@/lib/auth"
 import { put } from "@vercel/blob"
 
 export async function GET() {
