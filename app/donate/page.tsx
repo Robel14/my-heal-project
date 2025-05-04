@@ -1,29 +1,30 @@
-import Image from "next/image"
-import Link from "next/link"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Checkbox } from "@/components/ui/checkbox"
-import { FormEvent } from "react"
+'use client';
+
+import Image from "next/image";
+import Link from "next/link";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
+import { FormEvent } from "react";
 
 export default function DonationTeamContactPage() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    const form = e.currentTarget
-    const name = form.firstName.value + " " + form.lastName.value
-    const email = form.email.value
-    const inquiryType = form.inquiryType.value
-    const message = form.message.value
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get('firstName') + ' ' + formData.get('lastName');
+    const email = formData.get('email');
+    const inquiryType = formData.get('inquiryType');
+    const message = formData.get('message');
 
-    console.log("Donation team contact:", { name, email, inquiryType, message })
-    // You can add toast notification here if you want
-  }
+    console.log("Donation team contact:", { name, email, inquiryType, message });
+  };
 
   return (
     <>
@@ -64,7 +65,7 @@ export default function DonationTeamContactPage() {
                       <form className="space-y-6" onSubmit={handleSubmit}>
                         <div className="space-y-2">
                           <Label htmlFor="inquiryType">Type of Inquiry</Label>
-                          <Select name="inquiryType">
+                          <Select name="inquiryType" required>
                             <SelectTrigger id="inquiryType">
                               <SelectValue placeholder="Select type of inquiry" />
                             </SelectTrigger>
@@ -195,5 +196,5 @@ export default function DonationTeamContactPage() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
