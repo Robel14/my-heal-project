@@ -12,7 +12,6 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 export default function DonationTeamContactPage() {
   const handleSubmit = async (formData: FormData) => {
-    // Process form data without MongoDB
     const name = formData.get("first-name") + " " + formData.get("last-name")
     const email = formData.get("email")
     const inquiryType = formData.get("inquiry-type")
@@ -20,7 +19,6 @@ export default function DonationTeamContactPage() {
 
     console.log("Donation team contact:", { name, email, inquiryType, message })
 
-    // You could add code here to send an email instead of storing in a database
     return { success: true }
   }
 
@@ -60,7 +58,11 @@ export default function DonationTeamContactPage() {
                 <div className="md:col-span-3">
                   <Card>
                     <CardContent className="pt-6">
-                      <form className="space-y-6" action={handleSubmit}>
+                      <form className="space-y-6" onSubmit={async (e) => {
+                        e.preventDefault();
+                        const formData = new FormData(e.currentTarget);
+                        await handleSubmit(formData);
+                      }}>
                         <div className="space-y-2">
                           <Label htmlFor="inquiry-type">Type of Inquiry</Label>
                           <Select name="inquiry-type">
