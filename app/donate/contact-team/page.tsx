@@ -15,11 +15,11 @@ export default function DonationTeamContactPage() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    const form = e.currentTarget
-    const name = form.firstName.value + " " + form.lastName.value
-    const email = form.email.value
-    const inquiryType = form.inquiryType.value
-    const message = form.message.value
+    const formData = new FormData(e.currentTarget)
+    const name = `${formData.get("firstName") ?? ""} ${formData.get("lastName") ?? ""}`
+    const email = formData.get("email")
+    const inquiryType = formData.get("inquiryType")
+    const message = formData.get("message")
 
     console.log("Donation team contact:", { name, email, inquiryType, message })
     // You can add toast notification here if you want
