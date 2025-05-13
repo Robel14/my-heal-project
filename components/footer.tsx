@@ -22,7 +22,7 @@ export default function Footer() {
                 <Facebook size={20} />
               </Link>
               <Link
-                href="https://twitter.com"
+                href="https://x.com/healet9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-ethiopia-yellow"
@@ -30,7 +30,7 @@ export default function Footer() {
                 <Twitter size={20} />
               </Link>
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/heal.eth/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-ethiopia-yellow"
