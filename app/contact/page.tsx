@@ -107,7 +107,7 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-blue-700 mr-4 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900">Email</h3>
-                      <p className="text-gray-700">demedere@gmail.com</p>
+                      <p className="text-gray-700">healethiopia9@gmail.com</p>
                       <p className="text-gray-700">Web: www.HEAL-eth.com</p>
                     </div>
                   </div>
