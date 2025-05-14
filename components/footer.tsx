@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-ethiopia-yellow" />
-                <Link href="mailto:demedere@gmail.com">demedere@gmail.com</Link>
+                <Link href="mailto:demedere@gmail.com">healethiopia9@gmail.com</Link>
               </li>
             </ul>
           </div>
