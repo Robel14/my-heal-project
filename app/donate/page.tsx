@@ -124,7 +124,7 @@ export default function DonationTeamContactPage() {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">Email:</p>
-                        <p className="text-gray-700">donations@healethiopia.org</p>
+                        <p className="text-gray-700">healethiopia9@gmail.com</p>
                       </div>
                       <div>
                         <p className="font-medium">Phone:</p>
