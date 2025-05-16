@@ -38,7 +38,7 @@ export default function Footer() {
                 <Instagram size={20} />
               </Link>
               <Link
-                href="https://youtube.com"
+                href="https://www.youtube.com/@HealEthiopia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-ethiopia-yellow"
@@ -52,7 +52,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="https://www.youtube.com/@HealEthiopia">
+                <Link href="/" className="hover:text-ethiopia-yellow">
                   Home
                 </Link>
               </li>
