@@ -16,7 +16,7 @@ export default function RootLayout({
       <head>
   <title>HEAL-Ethiopia</title>
   <meta name="description" content="Helping Ethiopia Achieve Longevity" />
-  <link rel="icon" type="image/jpg" href="public/photo_2025-03-04_04-52-20.jpg" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
 </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="heal-theme">
