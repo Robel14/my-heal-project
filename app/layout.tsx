@@ -14,9 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>HEAL-Ethiopia</title>
-        <meta name="description" content="Helping Ethiopia Achieve Longevity" />
-      </head>
+  <title>HEAL-Ethiopia</title>
+  <meta name="description" content="Helping Ethiopia Achieve Longevity" />
+  <link rel="icon" type="image/png" href="public/photo_2025-03-04_04-52-20.jpg" />
+</head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="heal-theme">
           <ScrollToTop />
