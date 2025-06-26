@@ -11,12 +11,8 @@ export default function AddisAbabaPage() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <section className="relative h-[50vh] bg-gray-900">
-          <Image
-            src="https://www.istockphoto.com/photos/aerial-view-of-the-addis-ababa"
-            alt="Addis Ababa skyline"
-            fill
-            className="object-cover"
-          />
+          <Image src="/addis-ababa.jpg" alt="Aerial view of Addis Ababa" width={600} height={400} />
+
         </section>
 
         {/* Overview Section */}
