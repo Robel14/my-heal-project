@@ -14,7 +14,7 @@ const teamMembers = [
     name: "Dereje Deme",
     position: "Executive Director",
     bio: "Brings over two decades of experience in public and private institutions. He holds a BA in Organizational Management and a Diploma in Agriculture and oversees daily operations, external relations, and fundraising endeavors of HEAL.",
-    image: "my-heal-project/public/photo_2025-06-28_13-38-21.jpg",
+    image: "/photo_2025-06-28_13-38-21.jpg",
   },
 ]
 
