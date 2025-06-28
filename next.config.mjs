@@ -9,6 +9,16 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
 
-export default nextConfig
+  async redirects() {
+    return [
+      {
+        source: '/admin',
+        destination: 'https://ethiopia-vitality-admin.vercel.app',
+        permanent: false, // use true if you're never changing this
+      },
+    ];
+  },
+};
+
+export default nextConfig;
