@@ -14,7 +14,7 @@ const nextConfig = {
     return [
       {
         source: '/admin',
-        destination: 'https://ethiopia-vitality-admin.vercel.app',
+        destination: 'https://admin-ten-delta.vercel.app',
         permanent: false, // use true if you're never changing this
       },
     ];
