@@ -1,21 +1,30 @@
-// pages/api/create-post.ts
 import { createClient } from '@supabase/supabase-js';
+import { NextApiRequest, NextApiResponse } from 'next';
 
-const supabase = createClient(
-  'https://ibupkheuaufgdgxngtwl.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlidXBraGV1YXVmZ2RneG5ndHdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzOTAwNzIsImV4cCI6MjA2Njk2NjA3Mn0.C65DWGzuI23sCwTt2xrnWHlqfnQg4Mzt7ON5KqXgXyM'
-);
+const supabase = createClient('https://ibupkheuaufgdgxngtwl.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlidXBraGV1YXVmZ2RneG5ndHdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzOTAwNzIsImV4cCI6MjA2Njk2NjA3Mn0.C65DWGzuI23sCwTt2xrnWHlqfnQg4Mzt7ON5KqXgXyM');
 
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
-  }
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
 
-  const { title, content } = req.body;
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (req.method !== 'POST') return res.status(405).end();
 
-  const { data, error } = await supabase.from('posts').insert([{ title, content }]);
+  const chunks: Uint8Array[] = [];
+  req.on('data', (chunk) => chunks.push(chunk));
+  req.on('end', async () => {
+    const buffer = Buffer.concat(chunks);
+    const fileName = `file-${Date.now()}.jpg`; // or .mp4 for video
 
-  if (error) return res.status(500).json({ error: error.message });
+    const { data, error } = await supabase.storage
+      .from('uploads')
+      .upload(fileName, buffer, { contentType: req.headers['content-type'] || 'image/jpeg' });
 
-  return res.status(200).json({ message: 'Post created!', post: data });
+    if (error) return res.status(500).json({ error: error.message });
+
+    const { publicUrl } = supabase.storage.from('uploads').getPublicUrl(fileName).data;
+    res.status(200).json({ url: publicUrl });
+  });
 }
