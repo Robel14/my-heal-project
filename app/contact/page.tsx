@@ -120,20 +120,6 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
-
-                <div className="mt-8 p-6 bg-blue-50 rounded-lg">
-                  <h3 className="font-semibold text-gray-900 mb-2">Our Major Donors</h3>
-                  <ul className="text-gray-700 space-y-1 list-disc pl-5">
-                    <li>DFID / Ministry of Health</li>
-                    <li>Swedish International Development Agency (sida) / Pathfinder International-Ethiopia (PI-E)</li>
-                    <li>PEPFAR/USAID/ Project Concern International Ethiopia (PCI-E)</li>
-                    <li>Hope for African Children Initiative/Care-Ethiopia</li>
-                    <li>Addis Ababa HIV/AIDS Prevention and Control Office (AAHAPCO)</li>
-                    <li>African Women Development Fund (AWDF)</li>
-                    <li>The Andrew J. Young Foundation</li>
-                    <li>And many more generous supporters</li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
