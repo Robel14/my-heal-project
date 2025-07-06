@@ -127,46 +127,8 @@ export default function ImpactsPage() {
         </section>
 
         <section className="py-16 bg-blue-50">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-blue-700 mb-6">Our Focus Areas</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Environment Protection</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Human Rights</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Peace & Security</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Youth Employment</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Agribusiness</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Emergency Response</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Biodiversity</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Energy</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Human Trafficking</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Migration</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Nutrition</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <p className="font-semibold text-green-700">Water & Sanitation</p>
-              </div>
-            </div>
+         
+
             <Link href="/donate">
               <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-lg">Support Our Work</Button>
             </Link>
