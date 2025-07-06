@@ -135,37 +135,6 @@ export default function DonationTeamContactPage() {
                         <p className="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM (EAT)</p>
                       </div>
                     </div>
-
-                    <div className="mt-8">
-                      <h3 className="text-xl font-semibold text-blue-700 mb-4">Donation Team</h3>
-                      <div className="space-y-4">
-                        <div className="flex items-center space-x-3">
-                          <div className="relative w-12 h-12 rounded-full overflow-hidden">
-                            <Image
-                              src="/placeholder.svg?height=48&width=48"
-                              alt="Donation Team Lead"
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                          <div>
-                            <p className="font-medium">Selamawit Tadesse</p>
-                            <p className="text-sm text-gray-600">Donation Team Lead</p>
-                          </div>
-                        </div>
-                        <div className="flex items-center space-x-3">
-                          <div className="relative w-12 h-12 rounded-full overflow-hidden">
-                            <Image
-                              src="/placeholder.svg?height=48&width=48"
-                              alt="Donor Relations"
-                              fill
-                              className="object-cover"
-                            />
-                          </div>
-                          <div>
-                            <p className="font-medium">Dawit Abebe</p>
-                            <p className="text-sm text-gray-600">Donor Relations</p>
-                          </div>
                         </div>
                       </div>
                     </div>
