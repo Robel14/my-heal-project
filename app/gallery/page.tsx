@@ -201,7 +201,6 @@ const images = [
     description: "Sustainable farming project results",
   },
 ]
-]
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [activeCategory, setActiveCategory] = useState("All")
