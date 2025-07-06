@@ -39,26 +39,6 @@ const newsItems = [
     category: "Report",
   },
   {
-    id: "news-4",
-    title: "New Water Project Completed in Oromia Region",
-    date: "December 12, 2022",
-    summary:
-      "Hiwot Ethiopia has completed a major water project in the Oromia Region, providing clean water to five communities. The project included well construction, water distribution systems, and hygiene education.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_86_2025-03-12_15-06-25.jpg-YOs7OpGlOirZQB9kzaLzllH44ymxgz.jpeg",
-    category: "Project Completion",
-  },
-  {
-    id: "news-5",
-    title: "Hiwot Ethiopia Receives Award for Excellence",
-    date: "November 5, 2022",
-    summary:
-      "Hiwot Ethiopia has been recognized with an award for excellence in nonprofit management by the Ethiopian Charities and Societies Agency. The award acknowledges the organization's transparency, effectiveness, and impact.",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_75_2025-03-12_15-06-25.jpg-Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9.jpeg",
-    category: "Recognition",
-  },
-  {
     id: "news-6",
     title: "Youth Leadership Program Graduates 50 Young Leaders",
     date: "October 20, 2022",
