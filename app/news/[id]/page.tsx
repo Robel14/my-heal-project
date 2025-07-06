@@ -213,24 +213,6 @@ export default function NewsDetailPage({ params }: { params: { id: string } }) {
             </Link>
 
             <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: newsItem.content }}></div>
-
-            <div className="mt-12 pt-8 border-t border-gray-200">
-              <h3 className="text-xl font-bold mb-4">Share this article</h3>
-              <div className="flex space-x-4">
-                <Button variant="outline" className="border-blue-600 text-blue-700 hover:bg-blue-50">
-                  Facebook
-                </Button>
-                <Button variant="outline" className="border-blue-400 text-blue-500 hover:bg-blue-50">
-                  Twitter
-                </Button>
-                <Button variant="outline" className="border-green-600 text-green-700 hover:bg-green-50">
-                  WhatsApp
-                </Button>
-                <Button variant="outline" className="border-blue-700 text-blue-800 hover:bg-blue-50">
-                  LinkedIn
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </main>
