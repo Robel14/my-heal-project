@@ -23,14 +23,6 @@ const images = [
     category: "Healthcare",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_14_2025-03-14_11-41-55.jpg-dsnFq24NmoNlYsosyvxwhphiwqJGBO.jpeg",
-    category: "Youth Programs",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_15_2025-03-14_11-41-55.jpg-3bHEHyi8AEKRznrb6YL8ALqiyZo4jM.jpeg",
-    category: "Education",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_17_2025-03-14_11-41-55.jpg-wkPUAhRhvwB4JWhLNLpjrWoMMrzSIM.jpeg",
     category: "Education",
   },
@@ -45,10 +37,6 @@ const images = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_20_2025-03-14_11-41-55.jpg-MYW2hJ55rcwfe7UBZJkmelWvJOUqwH.jpeg",
     category: "Community Support",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_18_2025-03-14_11-41-55.jpg-y1OLgHt1oYEvPsyO0dfp2oevWjtWXt.jpeg",
-    category: "Education",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_12_2025-03-14_11-41-55.jpg-s1TTXtQS3UC2UEDf07yU5jjFNHTafd.jpeg",
@@ -145,10 +133,6 @@ const images = [
     category: "Education",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_89_2025-03-12_15-06-25.jpg-tBOec0cZwjQR74PcN2Chr4YReexIfI.jpeg",
-    category: "Documentation",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_90_2025-03-12_15-06-25.jpg-HYgi1GgZHGOOymphhWGdEFzijh0Rki.jpeg",
     category: "Livestock",
   },
@@ -208,11 +192,6 @@ const images = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_77_2025-03-12_15-06-25.jpg-lySQYHf2iDNEKBGuorsLDEudkftn2Y.jpeg",
     category: "Women Empowerment",
     description: "Women's group meeting and training",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_78_2025-03-12_15-06-25.jpg-XwBjLIVuib4YnLmuqrFxEIMPo9uh1G.jpeg",
-    category: "Economic Empowerment",
-    description: "Small business development program",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_79_2025-03-12_15-06-25.jpg-hEsko1uqjAPjjX20u9m2IyGHnuFljN.jpeg",
