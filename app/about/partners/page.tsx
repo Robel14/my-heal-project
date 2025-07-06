@@ -10,7 +10,7 @@ export default function PartnersPage() {
       <Navbar />
       <main className="min-h-screen py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold text-blue-700 mb-8">Our Partners</h1>
+          <h1 className="text-3xl font-bold text-blue-700 mb-8">Our Partners & Donors</h1>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow">
@@ -145,7 +145,19 @@ export default function PartnersPage() {
               <p className="text-center font-medium text-gray-700">PSI</p>
             </div>
           </div>
-
+<div className="mt-8 p-6 bg-blue-50 rounded-lg">
+                  <h3 className="font-semibold text-gray-900 mb-2">Our Major Donors</h3>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5">
+                    <li>DFID / Ministry of Health</li>
+                    <li>Swedish International Development Agency (sida) / Pathfinder International-Ethiopia (PI-E)</li>
+                    <li>PEPFAR/USAID/ Project Concern International Ethiopia (PCI-E)</li>
+                    <li>Hope for African Children Initiative/Care-Ethiopia</li>
+                    <li>Addis Ababa HIV/AIDS Prevention and Control Office (AAHAPCO)</li>
+                    <li>African Women Development Fund (AWDF)</li>
+                    <li>The Andrew J. Young Foundation</li>
+                    <li>And many more generous supporters</li>
+                  </ul>
+                </div>
           <div className="mt-12">
             <h2 className="text-2xl font-bold text-green-700 mb-4">Our Approach to Partnership</h2>
             <p className="text-gray-700 mb-6">
