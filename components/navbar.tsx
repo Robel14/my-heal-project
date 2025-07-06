@@ -21,7 +21,7 @@ const navItems = [
     dropdown: [
       { title: "Our Story", href: "/about/story" },
       { title: "Our Team", href: "/about/team" },
-      { title: "Our Vision", href: "/about/vision" },
+      { title: "Our Focus", href: "/about/vision" },
     ],
   },
   {
