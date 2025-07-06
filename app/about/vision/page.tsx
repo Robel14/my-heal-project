@@ -14,7 +14,7 @@ export default function OurVisionPage() {
           </div>
           <div className="relative h-full flex items-center">
             <div className="container mx-auto px-4">
-              <h1 className="text-4xl font-bold text-white">Our Vision & Mission</h1>
+              <h1 className="text-4xl font-bold text-white">Our Focus Area & Mission</h1>
             </div>
           </div>
         </section>
