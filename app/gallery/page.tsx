@@ -115,10 +115,6 @@ const images = [
     category: "Education",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_7_2025-03-14_11-41-55.jpg-Ey2d6N2oPepp00EjK5FEOvyQlGHMTD.jpeg",
-    category: "Livelihoods",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2025-03-14_11-41-55.jpg-5qJKo9WATgq26e3InEFqOjcqGFfmfa.jpeg",
     category: "Youth",
   },
@@ -131,11 +127,6 @@ const images = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_72_2025-03-12_15-06-25.jpg-9hh8hXTVJNjM34Ipdkoe8iawH7oVrE.jpeg",
     category: "Education",
     description: "Computer training and skills development program",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_73_2025-03-12_15-06-25.jpg-SdeP3SOzK1sXtVRu1KHaUuHDr4uUlP.jpeg",
-    category: "Aid Distribution",
-    description: "Distribution of essential supplies to communities",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_74_2025-03-12_15-06-25.jpg-VPQnqymqVNcN7TzLjSNXEODhPElJSg.jpeg",
