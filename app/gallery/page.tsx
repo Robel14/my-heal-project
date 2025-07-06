@@ -19,16 +19,8 @@ const images = [
     category: "Community Support",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_13_2025-03-14_11-41-55.jpg-NSgXOOG7fBTT7mQwT2tUGkvNAmX1Uf.jpeg",
-    category: "Healthcare",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_14_2025-03-14_11-41-55.jpg-dsnFq24NmoNlYsosyvxwhphiwqJGBO.jpeg",
     category: "Youth Programs",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_15_2025-03-14_11-41-55.jpg-3bHEHyi8AEKRznrb6YL8ALqiyZo4jM.jpeg",
-    category: "Education",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_17_2025-03-14_11-41-55.jpg-wkPUAhRhvwB4JWhLNLpjrWoMMrzSIM.jpeg",
@@ -47,24 +39,12 @@ const images = [
     category: "Community Support",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_18_2025-03-14_11-41-55.jpg-y1OLgHt1oYEvPsyO0dfp2oevWjtWXt.jpeg",
-    category: "Education",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_12_2025-03-14_11-41-55.jpg-s1TTXtQS3UC2UEDf07yU5jjFNHTafd.jpeg",
-    category: "Agriculture",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2025-03-12_15-05-16.jpg-7edrsPwrFOU0ZdnJEGZCkjAbw2IlNx.jpeg",
     category: "Education",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_4_2025-03-12_15-06-25.jpg-7T1NZrk7supk9JOCfHJ7PtaCyuZ0g0.jpeg",
     category: "Economic Empowerment",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_2_2025-03-12_15-05-16.jpg-mMXrVxaVVNbQgYy54Bew4Y9vLaZVCX.jpeg",
-    category: "Education",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2025-03-12_15-06-25.jpg-VJTcLRgPSZFGChVGEt5efohdpriphp.jpeg",
@@ -76,10 +56,6 @@ const images = [
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_94_2025-03-12_15-06-25.jpg-pXBq4yC17xwDaTAImCCiq1wpuar7PQ.jpeg",
-    category: "Agriculture",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_95_2025-03-12_15-06-25.jpg-VaxDAFxde5CkaLVIHUFWO1wiADxqZU.jpeg",
     category: "Agriculture",
   },
   {
@@ -97,10 +73,6 @@ const images = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_99_2025-03-12_15-06-25.jpg-plBmkdlZxEUEHmjngeJuhKFUGZP9oP.jpeg",
     category: "Livestock",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_100_2025-03-12_15-06-25.jpg-EE2UHxXVk3kdAAWTTJfqWofohkbzG9.jpeg",
-    category: "Education",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_91_2025-03-12_15-06-25.jpg-zSr8MLf3eyetxwID6e5yP8fpeo8hwi.jpeg",
