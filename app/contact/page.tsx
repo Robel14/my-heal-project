@@ -99,7 +99,7 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-blue-700 mr-4 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900">Phone</h3>
-                      <p className="text-gray-700">+251 911-24-51-06 / 911-82-44-08</p>
+                      <p className="text-gray-700">+251 911-82-44-08</p>
                       <p className="text-gray-700">+251 111 564197 / 555841</p>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900">Email</h3>
                       <p className="text-gray-700">healethiopia9@gmail.com</p>
-                      <p className="text-gray-700">Web: www.HEAL-eth.com</p>
+                      <p className="text-gray-700">Web: www.ethiopia-vitality.org</p>
                     </div>
                   </div>
                   <div className="flex items-start">
