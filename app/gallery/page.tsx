@@ -199,9 +199,9 @@ const images = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_80_2025-03-12_15-06-25.jpg-1QcW4Fs5h3GsfkU5mHP5yLUmhfTCkx.jpeg",
     category: "Agriculture",
     description: "Sustainable farming project results",
-  }
+  },
 ]
-
+]
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
   const [activeCategory, setActiveCategory] = useState("All")
