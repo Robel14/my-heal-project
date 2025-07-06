@@ -43,10 +43,6 @@ const images = [
     category: "Education",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_4_2025-03-12_15-06-25.jpg-7T1NZrk7supk9JOCfHJ7PtaCyuZ0g0.jpeg",
-    category: "Economic Empowerment",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2025-03-12_15-06-25.jpg-VJTcLRgPSZFGChVGEt5efohdpriphp.jpeg",
     category: "Leadership",
   },
@@ -59,10 +55,6 @@ const images = [
     category: "Agriculture",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_96_2025-03-12_15-06-25.jpg-xoCacpyN1pYxpQ3OLga0cDzZNPCzDG.jpeg",
-    category: "Livestock",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_97_2025-03-12_15-06-25.jpg-V6kiyfBdEHPy3NjOITllFS9ap9XjLg.jpeg",
     category: "Livestock",
   },
@@ -73,14 +65,6 @@ const images = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_99_2025-03-12_15-06-25.jpg-plBmkdlZxEUEHmjngeJuhKFUGZP9oP.jpeg",
     category: "Livestock",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_91_2025-03-12_15-06-25.jpg-zSr8MLf3eyetxwID6e5yP8fpeo8hwi.jpeg",
-    category: "Community",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_92_2025-03-12_15-06-25.jpg-mZBs7QEiqOl3OSWBO5R7dO5P4YCObF.jpeg",
-    category: "Documentation",
   },
 
   // New images
@@ -131,16 +115,8 @@ const images = [
     category: "Education",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_8_2025-03-14_11-41-55.jpg-D9PWLX50kpkQwJAYoP3k1JZgtX7HuR.jpeg",
-    category: "Youth",
-  },
-  {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_7_2025-03-14_11-41-55.jpg-Ey2d6N2oPepp00EjK5FEOvyQlGHMTD.jpeg",
     category: "Livelihoods",
-  },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_1_2025-03-14_11-41-55.jpg-iGMFoK00tFUypZBOY3uZAHPHiaDvXU.jpeg",
-    category: "Women",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_5_2025-03-14_11-41-55.jpg-5qJKo9WATgq26e3InEFqOjcqGFfmfa.jpeg",
