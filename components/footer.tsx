@@ -45,6 +45,14 @@ export default function Footer() {
               >
                 <Youtube size={20} />
               </Link>
+              <Link
+                href="https://www.linkedin.com/in/heal-ethiopia-94665a373"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-ethiopia-yellow"
+              >
+                <Linkedin size={20} />
+              </Link>
             </div>
           </div>
 
@@ -119,11 +127,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-ethiopia-yellow" />
-                <span>+251 911-24-51-06 / 911-82-44-08</span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="mr-2 h-5 w-5 text-ethiopia-yellow" />
-                <span>+251 111 564197 / 555841</span>
+                <span>+251 911-82-44-08</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-ethiopia-yellow" />
