@@ -124,15 +124,9 @@ export default function ImpactsPage() {
               ))}
             </div>
           </div>
-        </section>
-
-        <section className="py-16 bg-blue-50">
-         
-
-            <Link href="/donate">
+          <Link href="/donate">
               <Button className="bg-red-600 hover:bg-red-700 text-white px-8 py-6 text-lg">Support Our Work</Button>
             </Link>
-          </div>
         </section>
       </main>
       <Footer />
