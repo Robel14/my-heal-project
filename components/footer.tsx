@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin, LinkedIn } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -51,7 +51,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-white hover:text-ethiopia-yellow"
               >
-                <Linkedin size={20} />
+                <LinkedIn size={20} />
               </Link>
             </div>
           </div>
