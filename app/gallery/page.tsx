@@ -14,7 +14,7 @@ const categories = ["All", "Education", "Healthcare", "Community Support", "Yout
 
 const images = [
   // Original images
- [
+[
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_16_2025-03-14_11-41-55.jpg-CgJ2ScNXqlHdglTYpZBhvwFcyJz7OX.jpeg",
     category: "Community Support",
@@ -199,7 +199,8 @@ const images = [
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_80_2025-03-12_15-06-25.jpg-1QcW4Fs5h3GsfkU5mHP5yLUmhfTCkx.jpeg",
     category: "Agriculture",
     description: "Sustainable farming project results",
-  },
+  }
+]
 ]
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
