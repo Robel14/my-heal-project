@@ -35,11 +35,7 @@ export default function YouthEnlightenmentStoryPage() {
             <div className="max-w-4xl mx-auto">
               <div className="mb-12">
                 <div className="flex items-center mb-6">
-                  <div className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                    Success Story
-                  </div>
-                  <span className="mx-2 text-gray-400">•</span>
-                  <div className="text-gray-500 text-sm">Published: February 10, 2023</div>
+                  
                 </div>
 
                 <div className="prose max-w-none text-gray-700">
