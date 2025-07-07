@@ -54,7 +54,7 @@ const successStories = [
     title: "Farming for the Future",
     category: "Sustainable Agriculture",
     summary:
-      "Farmers in Oromia learned sustainable farming techniques through our agricultural program. They have increased their yields, diversified their crops, and become more resilient to climate change.",
+      "Farmers in SNNPR , South Omo zone learned sustainable farming techniques through our agricultural program. They have increased their yields, diversified their crops, and become more resilient to climate change.",
     image: "/placeholder.svg?height=300&width=500",
     quote:
       "The new farming methods have changed everything. My harvests are better, my soil is healthier, and my family is more food secure.",
@@ -117,45 +117,6 @@ export default function SuccessStoriesPage() {
               </p>
               <div className="text-center">
                 <Button className="bg-blue-700 hover:bg-blue-800 text-white">Submit Your Story</Button>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h3 className="text-2xl font-bold text-blue-700 mb-8 text-center">Featured Story</h3>
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <div className="flex flex-col md:flex-row gap-8">
-                  <div className="md:w-1/2">
-                    <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=400&width=600"
-                        alt="Abeba's Journey"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div className="md:w-1/2">
-                    <h4 className="text-xl font-bold text-green-700 mb-2">Abeba's Journey: From Struggle to Success</h4>
-                    <p className="text-gray-700 mb-4">
-                      Abeba grew up in a rural village where girls rarely completed their education. When her parents
-                      couldn't afford to keep her in school, our education support program stepped in to help.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      With a scholarship, mentoring, and learning materials, Abeba not only completed high school but
-                      went on to university. Today, she is a teacher in her community, inspiring other girls to pursue
-                      their education.
-                    </p>
-                    <p className="text-gray-700 mb-4">
-                      "Education changed everything for me. It opened doors I never knew existed and gave me the chance
-                      to give back to my community. Now I'm helping the next generation of girls achieve their dreams."
-                    </p>
-                    <Button className="bg-green-600 hover:bg-green-700 text-white">Read Abeba's Full Story</Button>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
