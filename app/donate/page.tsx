@@ -9,13 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { FormEvent } from "react";
 
@@ -24,10 +18,10 @@ export default function DonationTeamContactPage() {
     e.preventDefault();
 
     const formData = new FormData(e.currentTarget);
-    const name = formData.get("firstName") + " " + formData.get("lastName");
-    const email = formData.get("email");
-    const inquiryType = formData.get("inquiryType");
-    const message = formData.get("message");
+    const name = formData.get('firstName') + ' ' + formData.get('lastName');
+    const email = formData.get('email');
+    const inquiryType = formData.get('inquiryType');
+    const message = formData.get('message');
 
     console.log("Donation team contact:", { name, email, inquiryType, message });
   };
@@ -59,8 +53,8 @@ export default function DonationTeamContactPage() {
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-blue-700 mb-4">Get in Touch</h2>
                 <p className="text-gray-700">
-                  Our donation team is here to assist you with any questions about donations,
-                  planned giving, or other ways to support our work in Ethiopia.
+                  Our donation team is here to assist you with any questions about donations, planned giving, or other
+                  ways to support our work in Ethiopia.
                 </p>
               </div>
 
@@ -126,9 +120,7 @@ export default function DonationTeamContactPage() {
 
                 <div className="md:col-span-2">
                   <div className="bg-gray-50 p-6 rounded-lg h-full">
-                    <h3 className="text-xl font-semibold text-blue-700 mb-4">
-                      Contact Information
-                    </h3>
+                    <h3 className="text-xl font-semibold text-blue-700 mb-4">Contact Information</h3>
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">Email:</p>
@@ -143,6 +135,40 @@ export default function DonationTeamContactPage() {
                         <p className="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM (EAT)</p>
                       </div>
                     </div>
+
+                    <div className="mt-8">
+                      <h3 className="text-xl font-semibold text-blue-700 mb-4">Donation Team</h3>
+                      <div className="space-y-4">
+                        <div className="flex items-center space-x-3">
+                          <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                            <Image
+                              src="/placeholder.svg?height=48&width=48"
+                              alt="Donation Team Lead"
+                              fill
+                              className="object-cover"
+                            />
+                          </div>
+                          <div>
+                            <p className="font-medium">Selamawit Tadesse</p>
+                            <p className="text-sm text-gray-600">Donation Team Lead</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center space-x-3">
+                          <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                            <Image
+                              src="/placeholder.svg?height=48&width=48"
+                              alt="Donor Relations"
+                              fill
+                              className="object-cover"
+                            />
+                          </div>
+                          <div>
+                            <p className="font-medium">Dawit Abebe</p>
+                            <p className="text-sm text-gray-600">Donor Relations</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -150,8 +176,8 @@ export default function DonationTeamContactPage() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-blue-700 mb-4">Ways to Give</h3>
                 <p className="text-gray-700 mb-4">
-                  There are many ways to support HEAL-Ethiopia's work. Our donation team can help
-                  you explore options including:
+                  There are many ways to support HEAL-Ethiopia's work. Our donation team can help you explore options
+                  including:
                 </p>
                 <ul className="list-disc pl-5 space-y-2 text-gray-700 mb-4">
                   <li>One-time donations</li>
