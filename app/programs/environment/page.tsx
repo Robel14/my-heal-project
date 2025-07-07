@@ -52,7 +52,7 @@ export default function EnvironmentPage() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_82_2025-03-12_15-06-25.jpg-aP9YVxoZsCd5yBYKSpqgcoI5mrSdGh.jpeg"
+                  src="file-20190814-136186-139aoeg.avif"
                   alt="Environment Program"
                   fill
                   className="object-cover"
