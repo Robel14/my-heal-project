@@ -128,7 +128,15 @@ export default function DonationTeamContactPage() {
                       </div>
                       <div>
                         <p className="font-medium">Phone:</p>
-                        <p className="text-gray-700">+251 11 123 4567</p>
+                        <p className="text-gray-700">+251 911-24-51-06/ 911-82-44-08/ +251 111 564197/ 555841</p>
+                      </div>
+                      <div>
+                        <p className="font-medium">Fax:</p>
+                        <p className="text-gray-700">+251 11 155 5844</p>
+                      </div>
+                       <div>
+                        <p className="font-medium">Web:</p>
+                        <p className="text-gray-700">www.ethiopia-vitality.org</p>
                       </div>
                       <div>
                         <p className="font-medium">Office Hours:</p>
