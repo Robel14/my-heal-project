@@ -45,6 +45,7 @@ export default function DonationTeamContactPage() {
               <h1 className="text-4xl font-bold text-white">Contact Our Donation Team</h1>
             </div>
           </div>
+          </div>
         </section>
 
         <section className="py-16 bg-white">
