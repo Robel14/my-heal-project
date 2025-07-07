@@ -98,15 +98,15 @@ export default function Home() {
                 <p className="text-lg">Years of Service</p>
               </div>
               <div>
-                <p className="text-4xl md:text-5xl font-bold mb-2">500K+</p>
+                <p className="text-4xl md:text-5xl font-bold mb-2">1.7M+</p>
                 <p className="text-lg">Lives Impacted</p>
               </div>
               <div>
-                <p className="text-4xl md:text-5xl font-bold mb-2">120+</p>
+                <p className="text-4xl md:text-5xl font-bold mb-2">29+</p>
                 <p className="text-lg">Projects Completed</p>
               </div>
               <div>
-                <p className="text-4xl md:text-5xl font-bold mb-2">15+</p>
+                <p className="text-4xl md:text-5xl font-bold mb-2">7</p>
                 <p className="text-lg">Regional Offices</p>
               </div>
             </div>
@@ -119,8 +119,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Programs</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                We implement integrated development programs that address the interconnected challenges facing Ethiopian
-                communities.
+                Since 2003, HEAL has implementing integrated development and humanitarian assistance across Ethiopia, prioritizing vulnerable and marginalized populations affected by conflict, natural disasters, and systemic exclusion. Our multi-sectoral and holistic approach specifically targets those affected by poverty, conflict, and natural disasters.
               </p>
             </div>
 
@@ -330,90 +329,6 @@ export default function Home() {
                   <Button className="bg-green-600 hover:bg-green-700 text-white">View Project Details</Button>
                 </Link>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Voices from Our Communities</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Hear from the people whose lives have been transformed through our programs.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
-                      <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/testimonial-woman-1-Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9.jpg"
-                        alt="Abeba Tadesse"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h3 className="font-bold">Abeba Tadesse</h3>
-                      <p className="text-gray-600">Farmer, Oromia Region</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 italic">
-                    "The agricultural training and support I received has transformed my farm. I've doubled my yield and
-                    now grow a variety of crops that feed my family and provide income. My children can now attend
-                    school regularly."
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
-                      <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/testimonial-man-1-Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9.jpg"
-                        alt="Dawit Haile"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h3 className="font-bold">Dawit Haile</h3>
-                      <p className="text-gray-600">Youth Leader, Tigray Region</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 italic">
-                    "The youth center has given us a place to learn, connect, and grow. Through the leadership program,
-                    I've gained skills and confidence to start a community initiative that addresses local challenges."
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-none shadow-lg">
-                <CardContent className="p-6">
-                  <div className="flex items-center mb-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
-                      <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/testimonial-woman-2-Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9Yd9.jpg"
-                        alt="Fatuma Ahmed"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h3 className="font-bold">Fatuma Ahmed</h3>
-                      <p className="text-gray-600">Community Health Worker</p>
-                    </div>
-                  </div>
-                  <p className="text-gray-600 italic">
-                    "As a community health worker, I've seen remarkable changes in maternal and child health. Women now
-                    seek prenatal care, deliver with skilled attendants, and practice better nutrition and hygiene."
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </section>
