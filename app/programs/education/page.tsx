@@ -59,7 +59,7 @@ export default function EducationProgramPage() {
               </div>
               <div className="relative h-[500px] rounded-lg overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_77_2025-03-12_15-06-25.jpg-lySQYHf2iDNEKBGuorsLDEudkftn2Y.jpeg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_94_2025-03-12_15-06-25.jpg-pXBq4yC17xwDaTAImCCiq1wpuar7PQ.jpeg"
                   alt="Education Program Overview"
                   fill
                   className="object-cover"
@@ -301,7 +301,7 @@ export default function EducationProgramPage() {
                     Youth Enlightenment Project in West Hararghe
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    In West Hararghe Zone, Oromia Region, young people faced limited opportunities for education, skills
+                    In SNNPR , South Omo zone, young people faced limited opportunities for education, skills
                     development, and meaningful engagement. Many dropped out of school early, and those who completed
                     their education struggled to find employment or start businesses.
                   </p>
