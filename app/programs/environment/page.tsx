@@ -15,7 +15,7 @@ export default function EnvironmentPage() {
         <section className="relative h-[400px] overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/photo_3_2025-03-12_15-05-16.jpg-qQxd8G6Lnzf9dW6GwMeiObsaY2009z.jpeg"
+              src="https://theconversation.com/ethiopias-future-is-tied-to-water-a-vital-yet-threatened-resource-in-a-changing-climate-121844"
               alt="Environment & Water"
               fill
               className="object-cover brightness-[0.7]"
