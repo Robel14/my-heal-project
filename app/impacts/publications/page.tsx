@@ -69,17 +69,7 @@ const publications = [
     downloadPath: `/sample-publications/community-based-approaches-to-hivaids-prevention-and-care.pdf`,
     readMorePath: "/impacts/publications/hiv-aids-prevention",
   },
-  {
-    title: "ቤተሰብ እቅድ እና የስነ-ተዋልዶ፣ እናቶችና ህፃናት ጤና (Family Planning and Reproductive, Maternal and Child Health)",
-    type: "Health Education Brochure",
-    year: "2019",
-    authors: "HEAL-Ethiopia WASH Team",
-    description:
-      "This comprehensive health education brochure in Amharic provides essential information about family planning methods, maternal health services, and child health care. It covers topics such as contraceptive options, prenatal care, safe delivery practices, postpartum care, and child nutrition. The brochure uses simple language and illustrations to make the information accessible to communities with varying literacy levels.",
-    image: "/placeholder.svg?height=300&width=500",
-    downloadPath: `/sample-publications/ቤተሰብ-እቅድ-እና-የስነ-ተዋልዶ፣-እናቶችና-ህፃናት-ጤና-(family-planning-and-reproductive,-maternal-and-child-health).pdf`,
-    readMorePath: "/impacts/publications/family-planning",
-  },
+  
 ]
 
 export default function PublicationsPage() {
