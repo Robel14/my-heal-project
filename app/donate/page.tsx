@@ -140,7 +140,8 @@ export default function DonationTeamContactPage() {
                       </div>
                       <div>
                         <p className="font-medium">Office Hours:</p>
-                        <p className="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM (EAT)</p>
+                        <p className="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        <p className="text-gray-700">Saturday: 9:00 AM - 1:00 PM</p>
                       </div>
                     </div>
 
